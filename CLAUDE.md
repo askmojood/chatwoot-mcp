@@ -25,3 +25,9 @@ uvx ruff check --line-length 120 src tests
 - Everything in the data is SAMPLE and made up; no real company's data goes in.
 - A change tool never acts without its confirmation code; keep the tests in `tests/test_tools.py` passing.
 - The API token is the admin user's access token: `GET /api/v1/profile` returns it, so never print that response.
+
+## Releases
+Public since it was sent; on PyPI as `mojood-chatwoot-mcp` and in the official MCP Registry as
+`io.github.askmojood/chatwoot-mcp` (0.1.0, 3 Nov 2026). A release: bump `version` in `pyproject.toml` and both versions in
+`server.json`, commit, then push a `vX.Y.Z` tag (only on Hammad's word: it publishes). `.github/workflows/publish.yml`
+runs the tests, publishes to PyPI by trusted publishing and to the registry by GitHub OIDC; no tokens anywhere.
