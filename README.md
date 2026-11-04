@@ -2,6 +2,8 @@
 
 <!-- mcp-name: io.github.askmojood/chatwoot-mcp -->
 
+[![Chatwoot (Mojood Connect) MCP server](https://mcprush.com/badge/chatwoot-mojood-connect-mcp/card.svg)](https://mcprush.com/to/chatwoot-mojood-connect-mcp?ref=badge)
+
 Ask Claude about your customer inbox in plain words: who's waiting longest, what a customer wants, everything a
 company has asked. Hand conversations to an agent or team, label or resolve them, and leave private notes from the
 same chat, with a confirmation step before anything changes. There is no tool that sends a message to a customer.
